@@ -1,0 +1,195 @@
+html,
+body {
+    height: 100%;
+    background:rgb(235, 238, 247) ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul li:last-child {
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+button,
+label {
+    cursor: pointer;
+}
+
+input,
+button,
+textarea {
+    background: none;
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+input::placeholder {
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+input,
+textarea {
+    display: block;
+    resize: none;
+}
+
+body {
+    font-size: 14px;
+    line-height: 19px;
+    color: #242424;
+    width: 100%;
+    font-family: 'Manrope', arial, sans-serif;
+}
+
+.container {
+    max-width: 1325px;
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.dn {
+    display: none;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.zogo {
+    color: rgb(71, 71, 71);
+    font-family: Playfair Display;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 29.33px;
+    letter-spacing: -0.4px;
+    padding-top: 15px;
+    text-align: left;
+}
+
+.menu {
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.li {
+    color: rgb(44, 47, 36);
+    font-size: 16px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.btn {
+    margin-top: 15px;
+    box-sizing: border-box;
+    font-weight: 600;
+    /*Neutral/07*/
+    border: 1.5px solid rgb(44, 47, 36);
+    border-radius: 118px;
+    width: 147px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: rgb(93, 62, 168);
+    color: #fff;
+    border: 1px solid rgb(93, 62, 168);
+}
+
+.li:hover {
+    scale: 1.05;
+}
+
+.header {
+    height: 70px;
+}
+
+.img {
+    width: 200px;
+    height: 270px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.about_tit {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25.6px;
+    text-align: center;
+    width: 600px;
+    margin-left: 330px;
+    margin-bottom: 45px;
+}
